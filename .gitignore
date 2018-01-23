@@ -1,1 +1,4 @@
 *.sw*
+.DS_STORE
+node_modules
+build
