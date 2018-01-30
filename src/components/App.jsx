@@ -1,15 +1,13 @@
 import React from 'react';
 import Header from './Header';
+import TicketList from './TicketList';
 
 function App() {
-  return(
+  return( 
     <div>
-      <Header/> 
-      <h3>3a</h3>
-      <h3>Thato and Haley</h3>
-      <p><em>Firebase will not save record!</em></p>
-      <hr/>
-    </div>
+      <Header /> 
+      <TicketList />
+    </div> 
   );
 }
 
